@@ -1,0 +1,3 @@
+module javasample {
+    exports sample;
+}
