@@ -12,6 +12,7 @@ public class Main {
 
         int num1 = Integer.parseInt(param[0]);
         int num2 = Integer.parseInt(param[1]);
+
         System.out.println(num1 + num2);
     }
 }
