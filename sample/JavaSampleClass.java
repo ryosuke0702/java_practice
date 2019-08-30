@@ -5,18 +5,18 @@ package sample;
     int j = i * 2;
 
     int sum(int m) {
-        return j + m;   //20+3 returnで戻り値がメソッドに返る、11行目
+        return j + m;
     }
     int sum3(int m, int n) {    //(1,5)
-        int k = sum(3);     //7行目の int sum(int m)に代入    sum=23
-        return m + n + k;   //1+5+23    かつ戻り値がreturnでメソッドに返される、19行目、結果29が出力される
+        int k = sum(3);
+        return m + n + k;
     }
 }
 
 public class JavaSampleClass {
     public static void main(String[] args) {
-      Test t = new Test();  //tオブジェクトが作成される、インスタンス化 t
-      System.out.println("tオブジェクトのメソッド" + "sum3(1,5)の結果:" + t.sum3(1,5));   //sum3(1,5)を10行目に代入
+      Test t = new Test();
+      System.out.println("tオブジェクトのメソッド" + "sum3(1,5)の結果:" + t.sum3(1,5));
 
 
 
@@ -169,12 +169,3 @@ public class JavaSampleClass {
                }
                System.out.print("¥n");
            }*/
-
-
-
-
-
-
-
-
-
